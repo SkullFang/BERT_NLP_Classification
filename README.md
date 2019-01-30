@@ -22,12 +22,12 @@ BERT-Base, Uncased(https://storage.googleapis.com/bert_models/2018_10_18/uncased
 
 unzip model to BERT_BASE_DIR folder
 as 
->BERT_BASE_DIR/
->>bert_config.json
->>bert_model.ckpt.data-00000-of-00001
->>bert_model.ckpt.index
->>bert_model.ckpt.meta
->>vocab.txt
+ >BERT_BASE_DIR/
+  >>bert_config.json
+  >>bert_model.ckpt.data-00000-of-00001
+  >>bert_model.ckpt.index
+  >>bert_model.ckpt.meta
+  >>vocab.txt
 ## Data preparation
 
 Download the data on our server. The pymysql package is used. Do a simple stop word processing. And the data is divided into training data set train.tsv, val.tsv, test.tsv, and stored in the specified folder.
