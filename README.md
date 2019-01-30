@@ -23,11 +23,17 @@ BERT-Base, Uncased(https://storage.googleapis.com/bert_models/2018_10_18/uncased
 unzip model to BERT_BASE_DIR folder
 as 
  >BERT_BASE_DIR/
+ 
   >>bert_config.json
+  
   >>bert_model.ckpt.data-00000-of-00001
+  
   >>bert_model.ckpt.index
+  
   >>bert_model.ckpt.meta
+  
   >>vocab.txt
+  
 ## Data preparation
 
 Download the data on our server. The pymysql package is used. Do a simple stop word processing. And the data is divided into training data set train.tsv, val.tsv, test.tsv, and stored in the specified folder.
@@ -41,8 +47,11 @@ For legal reasons, I am temporarily unable to disclose the data set. So I hidden
 
  The directory structure is as follows:
 >DATA_DIR/
+
 >>train.tsv
+
 >>test.tsv
+
 >>val.tsv
 
 train.tsv  sample as：
@@ -62,6 +71,12 @@ vim build_model.sh
 export BERT_BASE_DIR={your project path}/BERT_BASE_DIR
 export GLUE_DIR={your project path}/Project/transfer_learn/bert/git_version_bert/DATA_DIR
 ```
+run
+
+```
+bash build_model.sh
+```
+
 The log will show the model performance and generate output_models folde.
 Finding the checkpoint file with the largest tail number is the model after migration learning.
 
