@@ -33,8 +33,12 @@ as
 Download the data on our server. The pymysql package is used. Do a simple stop word processing. And the data is divided into training data set train.tsv, val.tsv, test.tsv, and stored in the specified folder.
 ```
 mkdir DATA_DIR
-run GET_DATA.ipynb
 ```
+
+run GET_DATA.ipynb
+
+For legal reasons, I am temporarily unable to disclose the data set. So I hidden the account password in the code. You can prepare the data set in the format I gave.
+
  The directory structure is as follows:
 >DATA_DIR/
 >>train.tsv
