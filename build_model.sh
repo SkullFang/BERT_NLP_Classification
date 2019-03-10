@@ -1,5 +1,5 @@
-export BERT_BASE_DIR=/home/I348655/Document/Project/transfer_learn/bert/git_version_bert/BERT_BASE_DIR
-export GLUE_DIR=/home/I348655/Document/Project/transfer_learn/bert/git_version_bert/DATA_DIR
+export BERT_BASE_DIR=*****/BERT_BASE_DIR
+export GLUE_DIR=*****/DATA_DIR
 
 python run_classifier.py \
   --task_name=mrpc \
