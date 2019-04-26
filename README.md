@@ -1,3 +1,8 @@
+#BERT_NLP_Classification
+
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
+  
 # Introduction
 Migration learning is already hot in the CV space. However, there has been no development in the NLP field. According to the theory, migration learning can be used in the NLP field. In October last year, Google sent a migration study paper in the NLP field: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Although this is not the earliest paper in the field of NLP migration learning, the first papers are ELMo, fasiai's ULMFit and OpenAI's Transformer. Google created BERT based on predecessors, and BERT is much better than other models. Attention and transformer are mainly used in BERT. Detailed details can be seen in the original text.
 Https://arxiv.org/abs/1810.04805
@@ -100,6 +105,7 @@ run DEAL_WITH_TEST.ipynb
 Of course, we can make the test.tsv file according to the above test.tsv and replace the original file.
 run PREDICT.ipynb
 
+#LICENSE
 Copyright (c) <year> <copyright holders>
 
 "Anti 996" License Version 1.0 (Draft)
