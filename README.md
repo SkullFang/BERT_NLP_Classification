@@ -1,4 +1,4 @@
-#BERT_NLP_Classification
+# BERT_NLP_Classification
 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/)
@@ -105,7 +105,7 @@ run DEAL_WITH_TEST.ipynb
 Of course, we can make the test.tsv file according to the above test.tsv and replace the original file.
 run PREDICT.ipynb
 
-#LICENSE
+# LICENSE
 Copyright (c) <year> <copyright holders>
 
 "Anti 996" License Version 1.0 (Draft)
