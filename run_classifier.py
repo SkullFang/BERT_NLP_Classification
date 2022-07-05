@@ -17,7 +17,7 @@
 # Version 2 added predict function
 
 # %%
-"""BERT finetuning runner."""
+"""BERT finetuning runner"""
 
 from __future__ import absolute_import
 from __future__ import division
